@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+
+    <title>Calculadora Daora</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1 id="copyright">© Rafaela Silva Ruis - 2023</h1>
+    </div>
+    <div id="retangulo--calculadora">
+        <div id="visor--calculadora"></div>
+        <div id="input--numeros">
+            <div class="numeros--calculadora">
+                <input type="text" class="numero" id="input--numero" placeholder="digite a expressão">
+            </div>
+        </div>
+        <div id="bloco--comandos">
+            <div class="comando">
+                <input type="button" value="+" class="botao">
+            </div>
+            <div class="comando">
+                <input type="button" value="-" class="botao">
+            </div>
+            <div class="comando">
+                <input type="button" value="*" class="botao">
+            </div>
+            <div class="comando">
+                <input type="button" value="÷" class="botao">
+            </div>
+            <div class="comando">
+                <input type="button" value="C" class="botao">
+            </div>
+            <div class="comando">
+                <input type="button" value="=" class="botao">
+            </div>
+        </div>
+    </div>
+
+    <script src="./jquery/jquery-3.6.3.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>
