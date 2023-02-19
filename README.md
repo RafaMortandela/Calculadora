@@ -1,3 +1,3 @@
 # Calculadora
 
-Calculadora usadno HTML, CSS, JAvaScript uwu
+Calculadora usando HTML, CSS, JavaScript uwu
